@@ -1,4 +1,3 @@
-论文复审修改说明请点击[论文修改说明](http://www.vision.ee.ethz.ch/%7Etimofter/publications/Agustsson-CVPRW-2017.pdf) 
 # EFDNSR-PyTorch
 
 ## Dependencies
