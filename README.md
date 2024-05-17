@@ -24,3 +24,29 @@ Due to the large size of the dataset, it cannot be directly uploaded to the webp
 We used DIV2K and FFHQ dataset to train our model. 
 
 The model files are uploaded! You can use the EDSR framework to train our RFDN.
+
+# Facial recognition-tf2
+
+## Dependencies
+
+tensorflow==2.2.0
+
+## Code
+
+The trained weights can be downloaded from Baidu Cloud.
+https://pan.baidu.com/s/1MZLAjBFXt1Oq1adxlztadw password: 3kwx
+
+The CASIA WebFaces dataset for training and the LFW dataset for evaluation can be downloaded from Baidu Cloud.
+https://pan.baidu.com/s/1qMxFR8H_ih0xmY-rKgRejw password: bcrq
+
+## Assessment
+
+Download the evaluation dataset, extract the LFW dataset used for evaluation, and place it in the root directory
+Set the backbone feature extraction network and network weights to be used in eval LFW.py.
+Run eval-LFW.py to evaluate the accuracy of the model.
+
+
+
+
+
+
