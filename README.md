@@ -1,4 +1,4 @@
-# EDSR-PyTorch
+# EFDNSR-PyTorch
 
 ## Dependencies
 * Python 3.6
@@ -15,3 +15,10 @@
 We used DIV2K and FFHQ dataset to train our model. 
 
 The model files are uploaded! You can use the EDSR framework to train our RFDN
+
+## Code
+Clone this repository into any place you want.
+```bash
+git clone https://github.com/zhaoyan1208/EFDNSR
+cd EFDNSR
+```
