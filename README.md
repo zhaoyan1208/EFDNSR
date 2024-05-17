@@ -23,7 +23,7 @@ Due to the large size of the dataset, it cannot be directly uploaded to the webp
 
 We used DIV2K and FFHQ dataset to train our model. 
 
-The model files are uploaded! You can use the EDSR framework to train our RFDN.
+The model files are uploaded! You can use the EDSR framework to train our EFDNSR.
 
 # Facial recognition-tf2
 
