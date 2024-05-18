@@ -27,7 +27,7 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     model_path = os.path.join('', '')
-    model = RLFN()
+    model = EFDNSR()
     model.load_state_dict(torch.load(model_path), strict=True)
     model.eval()
     for k, v in model.named_parameters():
