@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2022 ByteDance
+
 from collections import OrderedDict
 import torch
 import torch.nn as nn
