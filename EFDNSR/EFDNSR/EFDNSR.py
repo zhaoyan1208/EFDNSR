@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Copyright 2022 ByteDance
 import torch.nn as nn
-import block_RLFN as block
+import block as block
 
 
 class EFDNSR(nn.Module):
