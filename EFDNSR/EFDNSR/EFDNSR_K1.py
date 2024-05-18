@@ -23,12 +23,12 @@ class EFDNSR_K1(nn.Module):
                                        feature_channels,
                                        kernel_size=3)
 
-        self.block_1 = block.RLFB(feature_channels)
-        self.block_2 = block.RLFB(feature_channels)
-        self.block_3 = block.RLFB(feature_channels)
-        self.block_4 = block.RLFB(feature_channels)
-        self.block_5 = block.RLFB(feature_channels)
-        self.block_6 = block.RLFB(feature_channels)
+        self.block_1 = block.EFDNSR(feature_channels)
+        self.block_2 = block.EFDNSR(feature_channels)
+        self.block_3 = block.EFDNSR(feature_channels)
+        self.block_4 = block.EFDNSR(feature_channels)
+        self.block_5 = block.EFDNSR(feature_channels)
+        self.block_6 = block.EFDNSR(feature_channels)
 
         self.conv_2 = block.conv_layer(feature_channels,
                                        feature_channels,
